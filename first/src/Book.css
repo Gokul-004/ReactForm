@@ -1,0 +1,80 @@
+.container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url('./assets/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form {
+    padding-bottom: 2%;
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.3  ); 
+    left: 50%;
+    width: 50%;
+    color: aliceblue;
+}
+
+
+
+label, input, select, textarea {
+    display: block; 
+    margin-bottom: 15px;
+    resize: none;
+}
+
+label {
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    height: 23px;
+    width: 100%;
+    padding: 5px; 
+    box-sizing: border-box; 
+}
+
+.slam {
+    z-index: 1000;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 20px; 
+}
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block; 
+    width: 18px; 
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #6200ea; 
+}
+
+label[for="male"],
+label[for="female"],
+label[for="sri"],
+label[for="devi"],
+label[for="priya"] {
+    font-size: medium;
+    font-weight: bold;
+    color: #fef7f7;
+    display: inline-block;
+    margin-right: 15px; 
+    
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    filter: brightness(1.2); 
+}
+select{
+    height: 30px;
+}
