@@ -1,0 +1,11 @@
+.hash li::before{
+    content: '#';
+   
+}
+.star li::before{
+    content: '*';
+    
+}
+ul{
+    list-style: none;
+}
